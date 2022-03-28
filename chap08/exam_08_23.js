@@ -1,6 +1,6 @@
 var string = 'Hello World!.';
 var search = 'l';
-var index;
+var count = 0;
 
 // 문자열은 유사 배열이므로 for 문으로 순회할 수 있다.
 for (var i = 0; i < string.length; i++) {
@@ -9,7 +9,7 @@ for (var i = 0; i < string.length; i++) {
     count++;    // continue 문이 실행 되면 이 문은 실행되지 않는다.
 }
 
-console.log(index); // 3
+console.log(count); // 3
 
 // 참고로 String.prototype.match 메서드를 사용해도 같은 동작을 한다.
 const regexp = new RegExp(search, 'g');
