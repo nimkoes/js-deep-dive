@@ -3,4 +3,4 @@ var person = {
     name: "Lee",
     // 프로퍼티 키는 age, 프로퍼티 값은 20
     age: 20
-}
+};
